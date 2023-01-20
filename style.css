@@ -183,6 +183,7 @@ section{
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 1.2rem;
+    align-items: center;
 }
 .about-text h5{
     font-size: 1.3rem;
