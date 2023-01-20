@@ -292,7 +292,7 @@ section{
 }
 .layer{
     background: transparent;
-    height: 100%;
+    height: 80%;
     width: 100%;
     position: absolute;
     border-radius: 5px;
@@ -328,6 +328,12 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.portfolio-img{
+    
+    height : 500px;
+    width: 350px;
+    max-height: 500px;
 }
 
 .contact .newsletter{
@@ -433,4 +439,15 @@ section{
         text-align: left;
         transition: all .35s ease;
     }
+}
+
+@media screen and (min-width: 490px) and (max-width: 800px){
+    .col img{
+        max-width: 100%;
+        width: 150px;
+        height: 250px;
+        border-radius:  5px;
+        
+    }
+
 }
