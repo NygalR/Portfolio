@@ -14,7 +14,7 @@
         --secound-bg-color: #f9f9f9;
         --text-color: #fff;
         --secound-color: #161616;
-        --main-color: #ef0454;
+        --main-color: #3601ca;
         --other-color: #бабаба;
         --big-font: 5.7rem;
         --h2-font: 3.8rem;
@@ -183,7 +183,13 @@ section{
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 1.2rem;
-    align-items: center;
+    align-items: center
+    
+    
+    
+    
+    
+    ;
 }
 .about-text h5{
     font-size: 1.3rem;
